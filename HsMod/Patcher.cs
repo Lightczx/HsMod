@@ -101,7 +101,7 @@ namespace HsMod
             {
                 if (isShowCardLargeCount.Value)
                 {
-                    LoadPatch(typeof(Patcher.PatchRealtimeCardNum));
+                    // LoadPatch(typeof(Patcher.PatchRealtimeCardNum));
                 }
                 else
                 {
@@ -217,7 +217,7 @@ namespace HsMod
             LoadPatch(typeof(Patcher.PatchDevOptioins));
             if (isShowCardLargeCount.Value)
             {
-                LoadPatch(typeof(Patcher.PatchRealtimeCardNum));
+                //LoadPatch(typeof(Patcher.PatchRealtimeCardNum));
             }
             if (isBypassDeckShareCodeCheckEnable.Value)
             {
